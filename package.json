@@ -19,7 +19,7 @@
   },
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
+    "deploy": "npx -y wrangler deploy",
     "check": "wrangler deploy --dry-run",
     "test": "node test/common.test.mjs && node test/acceptance.mjs"
   }
